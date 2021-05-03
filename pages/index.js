@@ -1,6 +1,10 @@
 
-import styles from '../styles/Home.module.css'
 
 export default function HomPage() {
-  return 
+  return (
+    <div>
+      <h1>Home</h1>
+      
+    </div>
+  );
 }
