@@ -20,9 +20,8 @@ export default function Eventitem({ evt }) {
       </div>
       <div className={styles.link}>
         <Link href={`/events/$evt.slug{}`}>
-          <a className='btn'>Details</a>
+          <a className="btn">Details</a>
         </Link>
-
       </div>
     </div>
   );
