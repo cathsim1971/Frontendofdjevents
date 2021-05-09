@@ -3,7 +3,7 @@ import { useRouter } from 'next/router'
 import Header from './Header'
 import Footer from './Footer'
 import Showcase from './Showcase'
-import InfoBox from './InfoBox'
+import InfoBox from '@/styles/Infobox.module.css'
 import styles from '@/styles/Layout.module.css'
 
 export default function Layout({ title, keywords, description, children }) {
